@@ -113,12 +113,13 @@ header .img-responsive {
     max-width: 50%
 }
 
-section .training-title {
+section .training-row {
     display: flex;
     align-items: center;
+    text-align: justify;
 }
 
-section .training-title .img-responsive {
+section .training-row .img-responsive {
     max-width: 30%;
     margin-top: 20%;
 }
