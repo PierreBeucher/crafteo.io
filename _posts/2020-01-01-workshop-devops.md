@@ -2,6 +2,7 @@
 layout: default
 title: Workshop DevOps
 image: workshop.png
+type: formation
 
 ---
 

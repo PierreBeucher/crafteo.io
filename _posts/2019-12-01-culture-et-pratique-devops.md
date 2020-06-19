@@ -2,7 +2,7 @@
 layout: default
 title: Culture & Pratiques DevOps
 image: devops.png
-
+type: formation
 ---
 
 Modules autour de la culture DevOps et des pratiques DevOps à la carte selon les besoins.

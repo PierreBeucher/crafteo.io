@@ -6,14 +6,8 @@
     {% include header.html %}
     {% include about.html %}
     {% include formations.html %}
-
-    {% if site.contact == "static" %}
-    {% include contact_static.html %}
-    {% elsif site.contact == "disqus" %}
-    {% include contact_disqus.html %}
-    {% elsif site.contact == "default" %}
-    {% include contact.html %}
-    {% endif %}
+    {% include expertises.html %}
+    {% include contact_crafteo.html %}
 
     {% include footer.html %}
     {% include js.html %}

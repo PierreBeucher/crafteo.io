@@ -7,19 +7,14 @@
 body {
     overflow-x: hidden;
     font-family: Manjari;
-    font-weight: bold;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p.small {
     font-size: 16px;
-}
-
-li {
-    font-size: 20px;
 }
 
 a,
@@ -203,9 +198,51 @@ section h2 {
     font-size: 3em;
 }
 
+/*
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+*/
+
+
+.highlight-primary {
+    color: #fff;
+    background: #{{ site.color.primary }};
+}
+
+li {
+    font-size: 18px;
+}
+
+/*
+.crafteo-ul {
+  list-style: none;
+}
+
+.crafteo-ul li::before {
+  content: "\2022";
+  color: #{{ site.color.primary }};
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+*/
+
+.formation-title {
+    font-family: Manjari;
+}
+
+.mail-image {
+  max-width:200px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+}
+
+.crafteo-email {
+ font-size: 22px;
 }
 
 @media(max-width:767px) {

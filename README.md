@@ -1,5 +1,9 @@
-Branch for demo purposes only.
+# crafteo.io
 
-Do not use it for your projects
+[crafteo.io](https://crafteo.io) GitHub pages with Jekyll
 
-Use the MASTER branch instead
+## Dev usage
+
+```
+bundle exec jekyll serve
+```

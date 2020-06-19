@@ -1,15 +1,19 @@
-<section id="formations">
+<section id="expertises" class="success highlight-primary">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-title">Formations</h2>
+                <h2 class="section-title">Expertises</h2>
                 <hr class="separator-secondary">
             </div>
         </div>
+    </div>
+</section>
+<section>
+    <div class="container">
 
         {% assign myidx = 0 %}
         {% for post in site.posts %}
-            {% if post.type == "formation" %}
+            {% if post.type == "expertise" %}
                 {% assign myidx = myidx | plus: 1 %}
                 {% assign mymodulo = myidx | modulo: 2 %}
                 <div class="row training-row">
