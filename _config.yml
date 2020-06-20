@@ -1,5 +1,5 @@
 # Site settings
-title: Formation & Expertise DevOps
+title: Crafteo - Formation & Expertise DevOps
 email: pierre@crafteo.io
 url: https://crafteo.io
 description: "Crafteo - Formation Devops par la pratique!"
@@ -32,7 +32,7 @@ color:
 # Footer settings
 footer:
   copyright: Pierre Beucher - Crafteo
-  location: Ou suis-je?
+  location: Ou me trouver?
   social: Retrouvez-moi aussi sur...
   credits: Credits
 
@@ -47,14 +47,19 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: "Un peu partout, mais surtout ici:"
+  - line: "Un peu partout dans les Cordées lyonnaises, mais surtout ici:"
   - line:
   - line: Crafteo
   - line: 13 cours de Verdun Gensoul
   - line: 69002 Lyon
 
 # Credits content
-credits: 'Adapté du <a href="https://github.com/jeromelachaud/freelancer-theme">theme Freelancer de Jerome Lachaud</a>'
+credits:
+- line: 'Design graphique fait avec <3 par'
+- line: '<a href="https://www.lesalfredines.com/">Les Alfredines</a>'
+- line:
+- line: 'Mise en page adapté du theme'
+- line: '<a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer de Jerome Lachaud</a>'
 
 # Build settings
 markdown: kramdown

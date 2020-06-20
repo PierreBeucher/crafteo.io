@@ -104,6 +104,10 @@ header .img-responsive {
     max-width: 50%
 }
 
+.img-about {
+    max-width: 40%
+}
+
 section .training-row {
     display: flex;
     align-items: center;
@@ -112,7 +116,8 @@ section .training-row {
 
 section .training-row .img-responsive {
     max-width: 30%;
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 header .intro-text .name {
@@ -209,6 +214,11 @@ section.success {
 .highlight-primary {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+.highlight-secondary {
+    color: #fff;
+    background: #{{ site.color.secondary }};
 }
 
 li {
