@@ -3,6 +3,7 @@ layout: default
 title: Workshop DevOps
 image: workshop.png
 type: formation
+brochure: "https://crafteo-public-data.s3.eu-west-3.amazonaws.com/training/brochures/crafteo-workshop-devops.pdf"
 
 ---
 

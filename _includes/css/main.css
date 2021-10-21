@@ -32,6 +32,13 @@ a.active {
     font-weight: 500;
 }
 
+.plaquette-download {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: #{{ site.color.secondary }};
+}
+
 /*
 h1,
 h2,

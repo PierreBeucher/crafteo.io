@@ -3,6 +3,8 @@ layout: default
 title: Culture & Pratiques DevOps
 image: devops.png
 type: formation
+brochure: "https://crafteo-public-data.s3.eu-west-3.amazonaws.com/training/brochures/crafteo-formation-devops.pdf"
+
 ---
 
 Modules autour de la culture DevOps et des pratiques DevOps à la carte selon les besoins.
