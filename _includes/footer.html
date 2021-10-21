@@ -13,9 +13,10 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
+                        <ul class="list-inline social">
                             {% for network in site.social %}
-                            <li>
+                            <li class="social">
+                                <a>{{ network.name }}</a><br>
                                 <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                             </li>
 		                    {% endfor %}

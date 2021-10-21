@@ -17,6 +17,22 @@ p.small {
     font-size: 16px;
 }
 
+ul.social {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    /* background: #cacaca; */
+    margin: 0;
+    padding: 0;
+}
+li.social {
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    /* background: #fafafa; */
+}
+
 a,
 a:hover,
 a:focus,
