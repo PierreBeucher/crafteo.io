@@ -5,6 +5,9 @@
 ## Dev usage
 
 ```
-bundle exec jekyll build
-bundle exec jekyll serve
+nix develop
+
+$ bundle install
+$ bundle exec jekyll build
+$ bundle exec jekyll serve
 ```
