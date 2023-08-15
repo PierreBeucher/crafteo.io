@@ -1,19 +1,21 @@
-<section id="expertises" class="success highlight-secondary">
+<section id="training" class="success highlight-primary">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-title">Expertises</h2>
-                <hr class="separator-primary">
+                <h2 class="section-title">Training and Mentoring</h2>
+                <hr class="separator-secondary">
+                <p>Duration: 2-3 days or split into 3h sessions.<br>
+                Languages: 🇫🇷 🇬🇧 - Customizable content following your needs.<br>
+                French nationals: eligible to <i>Compte Personnel de Formation (CPF)</i></p>
             </div>
         </div>
     </div>
 </section>
 <section>
     <div class="container">
-
         {% assign myidx = 0 %}
         {% for post in site.posts %}
-            {% if post.type == "expertise" %}
+            {% if post.type == "training" %}
                 {% assign myidx = myidx | plus: 1 %}
                 {% assign mymodulo = myidx | modulo: 2 %}
                 <div class="row training-row">

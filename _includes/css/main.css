@@ -128,13 +128,17 @@ header .img-responsive {
 }
 
 .img-about {
-    max-width: 40%
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section .training-row {
     display: flex;
     align-items: center;
-    text-align: justify;
+    text-align: left;
+    line-height: 1.48;
 }
 
 section .training-row .img-responsive {

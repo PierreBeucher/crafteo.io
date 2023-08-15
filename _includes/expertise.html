@@ -1,33 +1,33 @@
-<section id="formations" class="success highlight-primary">
+<section id="expertise" class="success highlight-secondary">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-title">Formations</h2>
-                <hr class="separator-secondary">
+                <h2 class="section-title">Expertise and skills</h2>
+                <hr class="separator-primary">
             </div>
         </div>
     </div>
 </section>
 <section>
     <div class="container">
+
         {% assign myidx = 0 %}
         {% for post in site.posts %}
-            {% if post.type == "formation" %}
+            {% if post.type == "expertise" %}
                 {% assign myidx = myidx | plus: 1 %}
                 {% assign mymodulo = myidx | modulo: 2 %}
                 <div class="row training-row">
                     {% if mymodulo == 0 %}
-                    <div class="col-lg-6">
+                    <div class="col-lg-7">
                         {{ post.content }}
                     </div>
                     {% endif %}
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <h2 class="text-center formation-title">{{ post.title }}</h2>
                         <img src="img/{{ post.image }}" class="img-responsive center-block" alt="{{ post.title }}-logo">
-                        <p class="text-center"><a href="{{ post.brochure }}" class="plaquette-download">Télécharger la plaquette</a></p>
                     </div>
                     {% if mymodulo == 1 %}
-                    <div class="col-lg-6">
+                    <div class="col-lg-7">
                         {{ post.content }}
                     </div>
                     {% endif %}
