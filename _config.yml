@@ -51,8 +51,9 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: I live in Lyon, France...
-  - line: Often traveling to various places !
+  - line: 📍 🗺️   Lyon, France
+  - line: 💻  I prefer fully-remote work
+  - line: though I'm open to a mixed schedule
 
 # Credits content
 credits:
