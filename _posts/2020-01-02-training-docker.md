@@ -23,4 +23,4 @@ Overview:
 
 ---
 
-[Download summary (french)](https://crafteo-public-data.s3.eu-west-3.amazonaws.com/training/brochures/crafteo-formation-devops.pdf)
+[Download summary (french)](https://crafteo-public-data.s3.eu-west-3.amazonaws.com/training/brochures/crafteo-formation-docker.pdf)
