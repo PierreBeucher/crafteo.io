@@ -1,9 +1,9 @@
 # Site settings
-title: Pierre - DevOps Expert
-subtitle: DevOps Expertise & Training
+title: Pierre Beucher - Crafteo
+subtitle: DevOps Consultant & Trainer
 email: pierre@crafteo.io
 url: https://crafteo.io
-description: "Pierre - DevOps Expert"
+description: "Pierre Beucher - DevOps Consultant & Trainer"
 keywords: "devops, kubernetes, cloud, docker"
 meta_author: Pierre Beucher
 
@@ -51,9 +51,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 📍 🗺️   Lyon, France
-  - line: 💻  I prefer fully-remote work
-  - line: though I'm open to a mixed schedule
+  - line: 📍 🗺️ Lyon, France
+  - line: 🚄 Mobile through all of France
 
 # Credits content
 credits:

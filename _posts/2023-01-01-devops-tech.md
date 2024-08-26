@@ -24,4 +24,5 @@ My foremost passion is for software development, infrastructure & tech. I can pr
 OSS projects I maintain ([see my GitHub](https://github.com/PierreBeucher)):
 
 - [Novops](https://github.com/PierreBeucher/novops) - Secure cross-platform secret loader for development and CI environment
+- [Cloudy Pad](https://github.com/PierreBeucher/cloudypad) - Deploy your own Cloud gaming gear !
 - [Cloud Sandbox Manager](https://github.com/PierreBeucher/cloud-sandbox-manager) - Automatic provisioning of Cloud Linux instances for trainings
