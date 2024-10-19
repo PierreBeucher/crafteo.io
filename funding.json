@@ -8,7 +8,7 @@
         "email": "pierre@crafteo.io",
         "description": "I'm an engineer working in DevOps and software developmeent. I develop various FOSS projects alongside my activities as freelancer consultant and trainers.\n\nI’m passionate about software development and tech in general. With 10 years of experience as DevOps Expert and Software Engineer, I work oward bringing DevOps and software development best practices to projects and clients I work with. I also actively participate in development of various FOSS projects helping me in that goal.",
         "webpageUrl": {
-            "url": "crafteo.io",
+            "url": "https://crafteo.io",
             "wellKnown": "https://crafteo.io/.well-known/funding-manifest-urls"
         }
     },
