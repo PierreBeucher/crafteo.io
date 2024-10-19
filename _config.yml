@@ -73,3 +73,5 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+include: [".well-known"]
