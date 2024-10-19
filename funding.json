@@ -23,7 +23,7 @@
         },
         "repositoryUrl": {
             "url": "https://github.com/PierreBeucher/novops",
-            "wellKnown": "https://github.com/PierreBeucher/novops/blob/main/docs/src/.well-known/funding-manifest-urls"
+            "wellKnown": "https://raw.githubusercontent.com/PierreBeucher/novops/refs/heads/main/docs/src/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:LGPL-3.0-or-later"],
         "tags": ["programming", "developer-tools", "security-tools", "secret-management", "devops-tools", "ci"]
